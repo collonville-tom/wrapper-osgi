@@ -1,0 +1,21 @@
+Spring Software Requirements Specification
+
+* TC-osgi-spring module
+
+** @req SRS_BUNDLE_SPRING_010
+
+  Le bundle spring amene les fonctionnalités dynmiques du framework springDM
+  
+        * @version 0.1.0
+        
+        * @track SRS_TC_190
+        
+** @req SRS_BUNDLE_SPRING_020
+
+  Le bundle spring est lancé automatiquement par equinox loader
+  
+        * @version 0.1.1
+        
+        * @track SRS_TC_190
+        
+        * @depend SRS_TC_050

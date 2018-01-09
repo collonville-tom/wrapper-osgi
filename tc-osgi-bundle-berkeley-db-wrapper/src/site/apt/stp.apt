@@ -1,0 +1,16 @@
+berkeley db wrapper Software Requirements Specification
+
+* General
+
+** Object
+
+*** @req STP_TC_OSGI_WRAPPER_BERKELEY_DB_010
+
+  L'accessibilité des classes de l'api par les autres bundle demontre le bon fonctionnement du composant 
+
+        * @version 0.1.0
+
+        * @verify SRS_TC_OSGI_WRAPPER_BERKELEY_DB_010
+
+        
+

@@ -1,0 +1,19 @@
+Spring Software Design Description
+
+* TC-osgi-spring module
+
+** @req SDD_BUNDLE_SPRING_010
+
+  Le bundle spring amene les fonctionnalités dynmiques du framework springDM via son packaging et son pom
+  
+        * @version 0.1.0
+        
+        * @track SRS_BUNDLE_SPRING_010
+
+** @req SDD_BUNDLE_SPRING_020
+
+  Le bundle spring lance de facon automatique le bundle extender de spring via son activator
+
+        * @version 0.1.1
+
+        * @track SRS_BUNDLE_SPRING_020

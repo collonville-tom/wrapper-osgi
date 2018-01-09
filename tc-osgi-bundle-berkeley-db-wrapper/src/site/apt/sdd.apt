@@ -1,0 +1,13 @@
+berkeley db wrapper Software Design Description
+
+* Generalité
+
+** Exigences
+
+*** @req SDD_TC_OSGI_WRAPPER_BERKELEY_DB_010
+
+  Berkeley DB wrapper derive de la configuration standart du pom parent moyennant une utilisation du plugin maven-bundle-plugin
+
+        * @version 0.1.0
+
+        * @satisfy SRS_TC_OSGI_WRAPPER_BERKELEY_DB_010

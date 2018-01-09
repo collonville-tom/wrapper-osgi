@@ -1,0 +1,15 @@
+berkeley db wrapper Software Requirements Specification
+
+* Generalité
+
+** Exigences
+
+*** @req SRS_TC_OSGI_WRAPPER_BERKELEY_DB_010
+
+  Berkeley DB wrapper permet de bundleliser le framework Barkeley DB
+
+        * @version 0.1.0
+
+        * @specify SDD_TC_OSGI_PARENT_PROJECT_BERKELEY_DB_010
+        
+        * @D

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationLibrary
+	xmlns="http://collonville.thomas.fr/tc-osgi-bundle-utils/config-file-schema">
+	<configFiles>
+		<defaultValue>org.eclipse.equinox.console</defaultValue>
+		<valueType>java.lang.String</valueType>
+		<fieldName>consoleDependencyBundleName</fieldName>
+		<className>org.tc.osgi.bundle.console.module.activator.ConsoleActivator</className>
+	</configFiles>
+	<configFiles>
+		<defaultValue>org.apache.felix.gogo.shell</defaultValue>
+		<valueType>java.lang.String</valueType>
+		<fieldName>shellDependencyBundleName</fieldName>
+		<className>org.tc.osgi.bundle.console.module.activator.ConsoleActivator</className>
+	</configFiles>
+	<configFiles>
+		<defaultValue>org.apache.felix.gogo.runtime</defaultValue>
+		<valueType>java.lang.String</valueType>
+		<fieldName>runtimeDependencyBundleName</fieldName>
+		<className>org.tc.osgi.bundle.console.module.activator.ConsoleActivator</className>
+	</configFiles>
+</ConfigurationLibrary>
