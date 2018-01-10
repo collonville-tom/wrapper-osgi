@@ -3,7 +3,7 @@
 >
     <modelVersion>4.0.0</modelVersion>
     <artifactId>tc-osgi-bundle-spring-wrapper</artifactId>
-    <groupId>org.tc.osgi.wrapper</groupId>
+    <groupId>org.tc.osgi.bundle.wrapper</groupId>
     <name>${project.artifactId}-${project.version}</name>
     <packaging>bundle</packaging>
     <version>${build}${snapshot}</version>
