@@ -4,10 +4,6 @@
   <body>
 	<menu ref="parent" />
 	<menu ref="modules" />
-	<menu name="Specifications">
-      <item name="SRS" href="srs.html"/>
-      <item name="SDD" href="sdd.html"/>
-    </menu>
     <menu ref="reports" />
     
 
