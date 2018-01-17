@@ -2,34 +2,22 @@ Backlog
 
 * attentes
 
-		* Mettre a jour documentation SRS
+		* [DOC] Mettre a jour documentation SDD
 		
-		* Mettre a jour documentation SDD
+		* [DOC] Mettre a jour documentation STP
 		
-		* Mettre a jour documentation STP
-		
-		* Mettre a jour documentation index
-		
-		* 0.x.x ajouter un xsd permettant de definir des fichier xml listant les contenu applicatif a lancer automatiquement, utile dans le cas de spring puisque non capable de resoudre une chaine de dependance de composant a lancer contrairement aux activator qui integre directement le code permettant le lancement des bundle (via le service utils) ceci permettant de supprimer les bundle de type launcher comme celui de hello world ou apt
-		
-		
-		<!--         www.eclipse.org/org/press-release/20101102_virgo.php -->
-<!-- http://www.theserverside.com/feature/OSGi-is-the-framework-for-all-modular-applications -->
 
-<!-- https://books.google.fr/books?id=WJ7NBgAAQBAJ&pg=PA101&lpg=PA101&dq=graphdatabasesettings+exemple&source=bl&ots=vsBZhiUe-R&sig=amEpkphOoxrmNW5olm70Mc4aJdQ&hl=fr&sa=X&ved=0ahUKEwiE8MHd4d_RAhUImBoKHeVdD8gQ6AEIMzAD#v=onepage&q=graphdatabasesettings%20exemple&f=false -->
-<!-- http://fooo.fr/~vjeux/github/github-recommandation/db/doc/manual/html/index.html -->
-<!-- http://orientdb.com/docs/last/Tutorial-Introduction-to-the-NoSQL-world.html -->
-<!-- http://www.ohmdb.com/ -->
-<!-- http://hypergraphdb.org/?project=hypergraphdb&page=Downloads -->
-<!-- http://orientdb.com/docs/last/Tutorial-Installation.html -->
-<!-- http://titan.thinkaurelius.com/ -->
-<!-- http://grepcode.com/file/repo1.maven.org/maven2/org.neo4j/neo4j-kernel/1.9.9/org/neo4j/graphdb/factory/GraphDatabaseSettings.java#GraphDatabaseSettings.0cache_type -->
 		
-* acceptes
+* faits
+
+		* 0.1.0 [DOC] Mettre a jour documentation SRS
+
+		* 0.1.0 [DOC] Mettre a jour documentation index
 
 * refuses
+
+
 
 * historique
 		
 		
- 

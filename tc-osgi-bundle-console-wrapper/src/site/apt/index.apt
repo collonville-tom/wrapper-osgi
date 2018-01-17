@@ -1,3 +1,3 @@
 Introduction
 
-  Le composant sert a ajouter a equinox loader les capacités de definition de service et de module osgi de spring. TC-OSGI definit un module permettant d'ajouter les spécifications spring et d'utiliser spring DM 
+  Le composant sert a ajouter a equinox loader les capacités d'une console standard shell pour interagir avec le container et les outils. 
