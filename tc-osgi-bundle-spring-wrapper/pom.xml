@@ -18,6 +18,8 @@
 			<groupId>org.tc.osgi.bundle</groupId>
 			<artifactId>tc-osgi-bundle-utils-interfaces</artifactId>
 			<version>${utils.interfaces.version}${snapshot}</version>
+            <classifier>assembly</classifier>
+            <scope>compile</scope>
         </dependency>
         <!-- Test for eclipse -->
         <dependency>
