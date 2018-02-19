@@ -67,6 +67,17 @@
 						<enabled>true</enabled>
 					</releases>
 					<id>artifactory</id>
+					<name>sonar</name>
+					<url>http://mvnrepository.com/artifact</url>
+				</repository>
+				<repository>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<id>artifactory</id>
 					<name>libs-release</name>
 					<url>http://82.238.55.33/artifactory/cots</url>
 				</repository>
