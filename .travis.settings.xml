@@ -40,7 +40,7 @@
 		<mirror>
 			<id>artifactory</id>
 			<name>Mirror Central</name>
-			<url>http://82.238.55.33/artifactory/repo.maven.apache.org</url>
+			<url>http://82.238.55.33/artifactory/central.maven.org</url>
 			<mirrorOf>central</mirrorOf>
 		</mirror>
 	</mirrors>
