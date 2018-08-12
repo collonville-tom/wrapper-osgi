@@ -27,6 +27,8 @@ https://collonville-tom.github.io/tc-delivery/docs/repositories/tc-release-local
 
 ## tc-osgi-bundle-spring-wrapper
 
+Wrapper de Spring DM (Dynamic Module)
+
 ### 0.2.0
 
 #### tar.gz
