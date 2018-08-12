@@ -21,5 +21,16 @@
 		</dependencySet>
 	</dependencySets>
 		
+	<fileSets>
+		<fileSet>
+			<directory>src/main/debian/DEBIAN</directory>
+			<outputDirectory>/opt/equinox-loader/bundles/${project.artifactId}-${project.version}</outputDirectory>
+			<useDefaultExcludes>true</useDefaultExcludes>
+			<filtered>true</filtered>
+			<includes>
+				<include>control</include>
+			</includes>
+		</fileSet>
+	</fileSets>
 	
 </assembly>
