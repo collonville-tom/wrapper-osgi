@@ -9,7 +9,7 @@
 	<version>${build}${snapshot}</version>
 	<properties>
 		<build>0.9.46</build>
-		<snapshot>-SNAPSHOT</snapshot>
+		<snapshot></snapshot>
 	</properties>
 	<parent>
 		<groupId>org.tc.parent</groupId>
