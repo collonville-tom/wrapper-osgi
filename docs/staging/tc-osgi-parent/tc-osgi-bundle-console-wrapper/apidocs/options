@@ -1,0 +1,25 @@
+-classpath
+'/media/thomas/Data/Works/jenkins-2-89-2/workspace/tc-wrapper-osgi-doc/tc-osgi-bundle-console-wrapper/target/classes:/home/thomas/Works/m2Repo/org/eclipse/platform/org.eclipse.equinox.console/1.1.200/org.eclipse.equinox.console-1.1.200.jar:/home/thomas/Works/m2Repo/org/tc/osgi/bundle/utils/tc-osgi-bundle-utils-interfaces/0.1.0-SNAPSHOT/tc-osgi-bundle-utils-interfaces-0.1.0-SNAPSHOT-assembly.jar:/home/thomas/Works/m2Repo/org/apache/felix/org.apache.felix.gogo.shell/0.10.0/org.apache.felix.gogo.shell-0.10.0.jar:/home/thomas/Works/m2Repo/org/eclipse/tycho/org.eclipse.osgi/3.11.2.v20161107-1947/org.eclipse.osgi-3.11.2.v20161107-1947.jar:/home/thomas/Works/m2Repo/org/apache/felix/org.apache.felix.gogo.runtime/0.10.0/org.apache.felix.gogo.runtime-0.10.0.jar:/home/thomas/Works/m2Repo/log4j/log4j/1.2.17/log4j-1.2.17.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/media/thomas/Data/Works/jenkins-2-89-2/workspace/tc-wrapper-osgi-doc/tc-osgi-bundle-console-wrapper/src/main/java'
+-Xdoclint:none
+-author
+-bottom
+'Copyright &#169; 2018 org.tc. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/media/thomas/Data/Works/jenkins-2-89-2/workspace/tc-wrapper-osgi-doc/tc-osgi-bundle-console-wrapper/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'tc-osgi-bundle-console-wrapper-0.1.0-SNAPSHOT 0.1.0-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/7/docs/api' '/media/thomas/Data/Works/jenkins-2-89-2/workspace/tc-wrapper-osgi-doc/tc-osgi-bundle-console-wrapper/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'tc-osgi-bundle-console-wrapper-0.1.0-SNAPSHOT 0.1.0-SNAPSHOT API'

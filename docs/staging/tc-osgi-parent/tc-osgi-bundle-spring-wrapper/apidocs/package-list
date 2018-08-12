@@ -1,0 +1,2 @@
+org.tc.osgi.bundle.spring.conf
+org.tc.osgi.bundle.spring.module.activator

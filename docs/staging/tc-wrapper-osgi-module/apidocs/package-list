@@ -1,0 +1,6 @@
+org.tc.osgi.bundle.berkeleydb.wrapper
+org.tc.osgi.bundle.console.conf
+org.tc.osgi.bundle.console.module.activator
+org.tc.osgi.bundle.spring.conf
+org.tc.osgi.bundle.spring.module.activator
+org.tc.osgi.bundle.syslog4j.wrapper

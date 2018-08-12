@@ -1,0 +1,25 @@
+-classpath
+'/media/thomas/Data/Works/jenkins-2-89-2/workspace/tc-wrapper-osgi-doc/tc-osgi-bundle-berkeley-db-wrapper/target/classes:/home/thomas/Works/m2Repo/com/sleepycat/je/5.0.73/je-5.0.73.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/media/thomas/Data/Works/jenkins-2-89-2/workspace/tc-wrapper-osgi-doc/tc-osgi-bundle-berkeley-db-wrapper/src/main/java'
+-Xdoclint:none
+-author
+-bottom
+'Copyright &#169; 2018 org.tc. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/media/thomas/Data/Works/jenkins-2-89-2/workspace/tc-wrapper-osgi-doc/tc-osgi-bundle-berkeley-db-wrapper/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'tc-osgi-bundle-berkeley-db-wrapper-5.0.73-SNAPSHOT 5.0.73-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/7/docs/api' '/media/thomas/Data/Works/jenkins-2-89-2/workspace/tc-wrapper-osgi-doc/tc-osgi-bundle-berkeley-db-wrapper/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'tc-osgi-bundle-berkeley-db-wrapper-5.0.73-SNAPSHOT 5.0.73-SNAPSHOT API'
