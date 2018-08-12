@@ -1,6 +1,6 @@
 # tc-wrapper-osgi
 
-Projet d'un container OSGI leger
+Projets de type wrapper du container OSGI tc-equinox-loader. Ces wrapper n'ont d'interet que de permettre de pacakger des librairies de facon compatible avec equinox (soit parceque la lib n'est pas un bundle, et le wrapper se charge de le conditionner comme tel, soit parceque la librairie ne se suffit pas en elle meme et doit etre apporter en lot)
 
 Doc maven du container OSGI
 https://collonville-tom.github.io/tc-wrapper-osgi/staging/tc-wrapper-osgi-module/
