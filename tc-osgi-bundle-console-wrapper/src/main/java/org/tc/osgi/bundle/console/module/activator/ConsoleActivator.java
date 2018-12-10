@@ -4,7 +4,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 import org.osgi.framework.BundleContext;
 import org.tc.osgi.bundle.console.conf.ConsolePropertyFile;
 import org.tc.osgi.bundle.utils.interf.conf.exception.FieldTrackingAssignementException;
-import org.tc.osgi.bundle.utils.interf.module.exception.TcOsgiException;
+import org.tc.osgi.bundle.utils.interf.exception.TcOsgiException;
 import org.tc.osgi.bundle.utils.interf.module.service.ILoggerUtilsService;
 import org.tc.osgi.bundle.utils.interf.module.service.IPropertyUtilsService;
 import org.tc.osgi.bundle.utils.interf.module.utils.AbstractTcOsgiActivator;

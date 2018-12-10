@@ -10,6 +10,7 @@
 		<build>0.1.1</build>
 		<manager.version>0.1.0</manager.version>
 		<snapshot>-SNAPSHOT</snapshot>
+		<docker.latest>latest</docker.latest>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -53,7 +54,7 @@
 					<images>
 						<image>
 							<build>
-								<from>${docker.login}/tc-osgi-bundle-manager:${manager.version}${snapshot}</from>
+								<from>${docker.login}/tc-osgi-bundle-manager:${docker.latest}</from>
 							</build>
 						</image>
 					</images>
