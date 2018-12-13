@@ -4,7 +4,7 @@
 	<groupId>org.tc.osgi.bundle.wrapper</groupId>
 	<name>${project.artifactId}-${project.version}</name>
 	<packaging>bundle</packaging>
-	<version>${build}${snapshot}</version>
+	
 	<properties>
 		<utils.interfaces.version>0.1.1</utils.interfaces.version>
 		<build>0.1.1</build>
@@ -12,6 +12,9 @@
 		<snapshot>-SNAPSHOT</snapshot>
 		<docker.latest>latest</docker.latest>
 	</properties>
+	
+	<version>${build}${snapshot}</version>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.tc.osgi.bundle.utils</groupId>
