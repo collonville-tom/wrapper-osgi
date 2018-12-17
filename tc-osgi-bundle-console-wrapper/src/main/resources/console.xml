@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ConfigurationLibrary
-	xmlns="http://collonville.thomas.fr/tc-osgi-bundle-utils/config-file-schema">
+<ConfigurationLibrary xmlns="http://collonville.thomas.fr/tc-osgi-bundle-utils/config-file-schema">
+	<configFiles>
+		<defaultValue>1.3.100.v20180827-1235</defaultValue>
+		<valueType>java.lang.String</valueType>
+		<fieldName>consoleDependencyBundleVersion</fieldName>
+		<className>org.tc.osgi.bundle.console.module.activator.ConsoleActivator</className>
+	</configFiles>
+	<configFiles>
+		<defaultValue>1.1.0</defaultValue>
+		<valueType>java.lang.String</valueType>
+		<fieldName>shellDependencyBundleVersion</fieldName>
+		<className>org.tc.osgi.bundle.console.module.activator.ConsoleActivator</className>
+	</configFiles>
+	<configFiles>
+		<defaultValue>1.1.0</defaultValue>
+		<valueType>java.lang.String</valueType>
+		<fieldName>runtimeDependencyBundleVersion</fieldName>
+		<className>org.tc.osgi.bundle.console.module.activator.ConsoleActivator</className>
+	</configFiles>
 	<configFiles>
 		<defaultValue>org.eclipse.equinox.console</defaultValue>
 		<valueType>java.lang.String</valueType>

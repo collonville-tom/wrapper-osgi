@@ -32,11 +32,41 @@ public class ConsoleActivator extends AbstractTcOsgiActivator {
     private String runtimeDependencyBundleName;
     private String shellDependencyBundleName;
 
-    /**
-     * getConsoleDependencyBundleName.
-     * @return String
-     * @throws FieldTrackingAssignementException
-     */
+    
+    private String consoleDependencyBundleVersion;
+    private String runtimeDependencyBundleVersion;
+    private String shellDependencyBundleVersion;
+
+    public String getConsoleDependencyBundleVersion() throws FieldTrackingAssignementException {
+        if (consoleDependencyBundleVersion == null) {
+            this.iPropertyUtilsService.getInstance().getXMLPropertyFile(ConsolePropertyFile.getInstance().getXMLFile()).fieldTraking(this,
+                "consoleDependencyBundleVersion");
+        }
+        this.iLoggerUtilsService.getInstance().getLogger(ConsoleActivator.class).debug(
+            "Lancement auto du bundle :" + consoleDependencyBundleVersion);
+        return consoleDependencyBundleVersion;
+    }
+
+    public String getRuntimeDependencyBundleVersion() throws FieldTrackingAssignementException {
+        if (runtimeDependencyBundleVersion == null) {
+            this.iPropertyUtilsService.getInstance().getXMLPropertyFile(ConsolePropertyFile.getInstance().getXMLFile()).fieldTraking(this,
+                "runtimeDependencyBundleVersion");
+        }
+        this.iLoggerUtilsService.getInstance().getLogger(ConsoleActivator.class).debug(
+            "Lancement auto du bundle :" + runtimeDependencyBundleVersion);
+        return runtimeDependencyBundleVersion;
+    }
+
+    public String getShellDependencyBundleVersion() throws FieldTrackingAssignementException {
+        if (shellDependencyBundleVersion == null) {
+            this.iPropertyUtilsService.getInstance().getXMLPropertyFile(ConsolePropertyFile.getInstance().getXMLFile()).fieldTraking(this,
+                "shellDependencyBundleVersion");
+        }
+        this.iLoggerUtilsService.getInstance().getLogger(ConsoleActivator.class).debug(
+            "Lancement auto du bundle :" + shellDependencyBundleVersion);
+        return shellDependencyBundleVersion;
+    }
+    
     public String getConsoleDependencyBundleName() throws FieldTrackingAssignementException {
         if (consoleDependencyBundleName == null) {
             this.iPropertyUtilsService.getInstance().getXMLPropertyFile(ConsolePropertyFile.getInstance().getXMLFile()).fieldTraking(this,
@@ -118,11 +148,11 @@ public class ConsoleActivator extends AbstractTcOsgiActivator {
         DOMConfigurator.configureAndWatch(this.iLoggerUtilsService.getInstance().getLoggerGestionnary().getLog4jPathfile());
         this.iLoggerUtilsService.getInstance().getLogger(ConsoleActivator.class).debug("Start of utils service tracking");
         this.getIBundleUtilsService().getInstance().getBundleStarter().processOnBundle(context,
-            getRuntimeDependencyBundleName());
+            getRuntimeDependencyBundleName(),this.getRuntimeDependencyBundleVersion());
         this.getIBundleUtilsService().getInstance().getBundleStarter().processOnBundle(context,
-            getShellDependencyBundleName());
+            getShellDependencyBundleName(),this.getShellDependencyBundleVersion());
         this.getIBundleUtilsService().getInstance().getBundleStarter().processOnBundle(context,
-            getConsoleDependencyBundleName());
+            getConsoleDependencyBundleName(),this.getConsoleDependencyBundleVersion());
 
     }
 

@@ -9,8 +9,8 @@
 		<utils.interfaces.version>0.1.1</utils.interfaces.version>
 		<build>0.1.1</build>
 		<manager.version>0.1.0</manager.version>
-		<snapshot>-SNAPSHOT</snapshot>
-		<docker.latest>latest</docker.latest>
+		<snapshot></snapshot>
+		<docker.latest>0.1.0</docker.latest>
 	</properties>
 	
 	<version>${build}${snapshot}</version>
