@@ -4,7 +4,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 import org.osgi.framework.BundleContext;
 import org.tc.osgi.bundle.spring.conf.SpringPropertyFile;
 import org.tc.osgi.bundle.utils.interf.conf.exception.FieldTrackingAssignementException;
-import org.tc.osgi.bundle.utils.interf.module.exception.TcOsgiException;
+import org.tc.osgi.bundle.utils.interf.exception.TcOsgiException;
 import org.tc.osgi.bundle.utils.interf.module.service.ILoggerUtilsService;
 import org.tc.osgi.bundle.utils.interf.module.service.IPropertyUtilsService;
 import org.tc.osgi.bundle.utils.interf.module.utils.AbstractTcOsgiActivator;
@@ -96,7 +96,8 @@ public class SpringActivator extends AbstractTcOsgiActivator {
 		// BasicConfigurator.configure();
 		DOMConfigurator.configureAndWatch(this.iLoggerUtilsService.getInstance().getLoggerGestionnary().getLog4jPathfile());
 		this.iLoggerUtilsService.getInstance().getLogger(SpringActivator.class).debug("Start of utils service tracking");
-		this.getIBundleUtilsService().getInstance().getBundleStarter().processOnBundle(context, getOrgSpringFrameworkOsgiExtenderDependencyBundleName());
+		// TODO la version devrait etre dans les properties
+		this.getIBundleUtilsService().getInstance().getBundleStarter().processOnBundle(context, getOrgSpringFrameworkOsgiExtenderDependencyBundleName(),"1.2.1");
 
 	}
 

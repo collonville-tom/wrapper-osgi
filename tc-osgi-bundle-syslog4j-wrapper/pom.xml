@@ -6,7 +6,7 @@
 	<name>${project.artifactId}-${project.version}</name>
 	<description>wrapper du cots syslog4j </description>
 	<packaging>jar</packaging>
-	<version>${build}${snapshot}</version>
+	<version>${build}.1${snapshot}</version>
 	<properties>
 		<build>0.9.46</build>
 		<snapshot></snapshot>
@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.tc.parent</groupId>
     	<artifactId>tc-osgi-parent</artifactId>
-		<version>0.7.0</version>
+		<version>0.8.1</version>
 	</parent>
 	<dependencies>
 		<dependency>

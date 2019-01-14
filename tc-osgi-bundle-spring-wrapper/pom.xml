@@ -8,9 +8,9 @@
     <packaging>bundle</packaging>
     <version>${build}${snapshot}</version>
     <properties>
-        <build>0.2.0</build>
-        <utils.interfaces.version>0.1.0</utils.interfaces.version>
-        <equinox-loader.version>0.2.0</equinox-loader.version>
+        <build>0.3.0</build>
+        <utils.interfaces.version>0.1.3</utils.interfaces.version>
+        <equinox-loader.version>0.2.3</equinox-loader.version>
         <snapshot></snapshot>
     </properties>
         <dependencies>
@@ -52,7 +52,7 @@
     <parent>
         <groupId>org.tc.parent</groupId>
         <artifactId>tc-osgi-parent</artifactId>
-        <version>0.7.0</version>
+        <version>0.8.1</version>
     </parent>
     <build>
         <plugins>

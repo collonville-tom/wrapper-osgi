@@ -6,9 +6,9 @@
 	<name>${project.artifactId}-${project.version}</name>
 	<description>wrapper du cots berkeley-db </description>
 	<packaging>jar</packaging>
-	<version>${build}${snapshot}</version>
+	<version>${build}.1${snapshot}</version>
 	<properties>
-		<build>5.0.73</build>
+		<build>5.0.73</build> <!-- on incremente le dernier digit car ca ne pourra etre que des mise a jour de pom  -->
 		<snapshot></snapshot>
 	</properties>
 
@@ -23,7 +23,7 @@
 	<parent>
 		<groupId>org.tc.parent</groupId>
     	<artifactId>tc-osgi-parent</artifactId>
-		<version>0.7.0</version>
+		<version>0.8.1</version>
 	</parent>
 	<build>
 		<plugins>
