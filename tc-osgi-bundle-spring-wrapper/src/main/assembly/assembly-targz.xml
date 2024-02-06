@@ -41,6 +41,7 @@
 			<filtered>true</filtered>
 			<includes>
 				<include>spring.xml</include>
+				<include>spring.yaml</include>
 			</includes>
 		</fileSet>
 		<fileSet>

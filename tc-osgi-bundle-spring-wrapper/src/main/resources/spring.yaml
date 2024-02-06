@@ -1,0 +1,5 @@
+config:
+   - value: org.springframework.osgi.extender
+     type: java.lang.String
+     field: orgSpringFrameworkOsgiExtenderDependencyBundleName
+     className: org.tc.osgi.bundle.spring.module.activator.SpringActivator

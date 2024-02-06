@@ -41,6 +41,7 @@
 			<filtered>true</filtered>
 			<includes>
 				<include>console.xml</include>
+				<include>console.yaml</include>
 			</includes>
 		</fileSet>
 	</fileSets>

@@ -32,19 +32,18 @@ public class SpringActivator extends AbstractTcOsgiActivator {
 
 	/**
 	 * getOrgSpringframeworkOsgiExtenderDependencyBundleName.
+	 * 
 	 * @return String
 	 * @throws FieldTrackingAssignementException
 	 */
 	public String getOrgSpringFrameworkOsgiExtenderDependencyBundleName() throws FieldTrackingAssignementException {
 		if (orgSpringFrameworkOsgiExtenderDependencyBundleName == null) {
-			this.iPropertyUtilsService.getInstance().getXMLPropertyFile(SpringPropertyFile.getInstance().getXMLFile()).fieldTraking(this,
-				"orgSpringFrameworkOsgiExtenderDependencyBundleName");
+			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(SpringPropertyFile.getInstance().getYamlFile()).fieldTraking(this,
+					"orgSpringFrameworkOsgiExtenderDependencyBundleName");
 		}
-		this.iLoggerUtilsService.getInstance().getLogger(SpringActivator.class).debug(
-			"Lancement auto du bundle :" + orgSpringFrameworkOsgiExtenderDependencyBundleName);
+		this.iLoggerUtilsService.getInstance().getLogger(SpringActivator.class).debug("Lancement auto du bundle :" + orgSpringFrameworkOsgiExtenderDependencyBundleName);
 		return orgSpringFrameworkOsgiExtenderDependencyBundleName;
 	}
-
 
 	@Override
 	protected void checkInitBundleUtilsService(BundleContext context) throws TcOsgiException {
@@ -97,7 +96,7 @@ public class SpringActivator extends AbstractTcOsgiActivator {
 		DOMConfigurator.configureAndWatch(this.iLoggerUtilsService.getInstance().getLoggerGestionnary().getLog4jPathfile());
 		this.iLoggerUtilsService.getInstance().getLogger(SpringActivator.class).debug("Start of utils service tracking");
 		// TODO la version devrait etre dans les properties
-		this.getIBundleUtilsService().getInstance().getBundleStarter().processOnBundle(context, getOrgSpringFrameworkOsgiExtenderDependencyBundleName(),"1.2.1");
+		this.getIBundleUtilsService().getInstance().getBundleStarter().processOnBundle(context, getOrgSpringFrameworkOsgiExtenderDependencyBundleName(), "1.2.1");
 
 	}
 
