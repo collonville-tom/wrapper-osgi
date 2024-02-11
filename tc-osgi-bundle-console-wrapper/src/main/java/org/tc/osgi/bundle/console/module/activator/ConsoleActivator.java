@@ -38,7 +38,7 @@ public class ConsoleActivator extends AbstractTcOsgiActivator {
 
 	public String getConsoleDependencyBundleVersion() throws FieldTrackingAssignementException {
 		if (consoleDependencyBundleVersion == null) {
-			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getXMLFile()).fieldTraking(this, "consoleDependencyBundleVersion");
+			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getYamlFile()).fieldTraking(this, "consoleDependencyBundleVersion");
 		}
 		this.iLoggerUtilsService.getInstance().getLogger(ConsoleActivator.class).debug("Lancement auto du bundle :" + consoleDependencyBundleVersion);
 		return consoleDependencyBundleVersion;
@@ -46,7 +46,7 @@ public class ConsoleActivator extends AbstractTcOsgiActivator {
 
 	public String getRuntimeDependencyBundleVersion() throws FieldTrackingAssignementException {
 		if (runtimeDependencyBundleVersion == null) {
-			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getXMLFile()).fieldTraking(this, "runtimeDependencyBundleVersion");
+			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getYamlFile()).fieldTraking(this, "runtimeDependencyBundleVersion");
 		}
 		this.iLoggerUtilsService.getInstance().getLogger(ConsoleActivator.class).debug("Lancement auto du bundle :" + runtimeDependencyBundleVersion);
 		return runtimeDependencyBundleVersion;
@@ -54,7 +54,7 @@ public class ConsoleActivator extends AbstractTcOsgiActivator {
 
 	public String getShellDependencyBundleVersion() throws FieldTrackingAssignementException {
 		if (shellDependencyBundleVersion == null) {
-			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getXMLFile()).fieldTraking(this, "shellDependencyBundleVersion");
+			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getYamlFile()).fieldTraking(this, "shellDependencyBundleVersion");
 		}
 		this.iLoggerUtilsService.getInstance().getLogger(ConsoleActivator.class).debug("Lancement auto du bundle :" + shellDependencyBundleVersion);
 		return shellDependencyBundleVersion;
@@ -62,7 +62,7 @@ public class ConsoleActivator extends AbstractTcOsgiActivator {
 
 	public String getConsoleDependencyBundleName() throws FieldTrackingAssignementException {
 		if (consoleDependencyBundleName == null) {
-			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getXMLFile()).fieldTraking(this, "consoleDependencyBundleName");
+			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getYamlFile()).fieldTraking(this, "consoleDependencyBundleName");
 		}
 		this.iLoggerUtilsService.getInstance().getLogger(ConsoleActivator.class).debug("Lancement auto du bundle :" + consoleDependencyBundleName);
 		return consoleDependencyBundleName;
@@ -70,7 +70,7 @@ public class ConsoleActivator extends AbstractTcOsgiActivator {
 
 	public String getRuntimeDependencyBundleName() throws FieldTrackingAssignementException {
 		if (runtimeDependencyBundleName == null) {
-			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getXMLFile()).fieldTraking(this, "runtimeDependencyBundleName");
+			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getYamlFile()).fieldTraking(this, "runtimeDependencyBundleName");
 		}
 		this.iLoggerUtilsService.getInstance().getLogger(ConsoleActivator.class).debug("Lancement auto du bundle :" + runtimeDependencyBundleName);
 		return runtimeDependencyBundleName;
@@ -78,7 +78,7 @@ public class ConsoleActivator extends AbstractTcOsgiActivator {
 
 	public String getShellDependencyBundleName() throws FieldTrackingAssignementException {
 		if (shellDependencyBundleName == null) {
-			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getXMLFile()).fieldTraking(this, "shellDependencyBundleName");
+			this.iPropertyUtilsService.getInstance().getYamlPropertyFile(ConsolePropertyFile.getInstance().getYamlFile()).fieldTraking(this, "shellDependencyBundleName");
 		}
 		this.iLoggerUtilsService.getInstance().getLogger(ConsoleActivator.class).debug("Lancement auto du bundle :" + shellDependencyBundleName);
 		return shellDependencyBundleName;

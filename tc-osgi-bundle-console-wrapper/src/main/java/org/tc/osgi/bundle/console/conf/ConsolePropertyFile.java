@@ -69,16 +69,6 @@ public class ConsolePropertyFile extends AbstractPropertyFile {
 		return ConsolePropertyFile.SPRING_FILE;
 	}
 
-	/**
-	 * @return String
-	 * @see org.tc.osgi.bundle.utils.conf.AbstractPropertyFile#getXMLFile()
-	 */
-	@Override
-	public String getXMLFile() {
-		return ConsolePropertyFile.getInstance().getConfigDirectory() + getConfFile();
-
-	}
-
 	@Override
 	public String getYamlFile() {
 		// TODO Auto-generated method stub

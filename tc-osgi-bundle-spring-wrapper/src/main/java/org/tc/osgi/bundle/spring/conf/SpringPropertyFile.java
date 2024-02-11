@@ -69,16 +69,6 @@ public class SpringPropertyFile extends AbstractPropertyFile {
 		return SpringPropertyFile.SPRING_FILE;
 	}
 
-	/**
-	 * @return String
-	 * @see org.tc.osgi.bundle.utils.conf.AbstractPropertyFile#getXMLFile()
-	 */
-	@Override
-	public String getXMLFile() {
-		return SpringPropertyFile.getInstance().getConfigDirectory() + getConfFile();
-
-	}
-
 	@Override
 	public String getYamlFile() {
 		return SpringPropertyFile.getInstance().getConfigDirectory() + getConfFile();
