@@ -16,9 +16,7 @@
   
 
   <modules>
-        <!-- A revoir -->
-        <!-- <module>tc-osgi-bundle-spring-wrapper</module>  -->
-        
+        <module>tc-osgi-bundle-spring-wrapper</module> 
         <module>tc-osgi-bundle-syslog4j-wrapper</module>
         <module>tc-osgi-bundle-berkeley-db-wrapper</module>
   </modules>
